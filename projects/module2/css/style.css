@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+}
+
+.row{
+    width: 100%;
+    position: relative;
+}
+
+.col-lg, .col-md {
+    border: 2px solid black;
+    width: 98%;
+    height: 200px;
+    overflow: auto;
+    float: left;
+    background-color: aqua;
+    margin: 3px;
+}
+
+#recipe-1 {
+    background-color: burlywood;
+}
+
+#recipe-2 {
+    background-color: #39e600;
+}
+
+#recipe-3 {
+    background-color: #005ce6;
+}
+
+.sect-title {
+    position: relative;
+    top: 0%;
+    left: 50%;
+    border: 2px solid black;
+    width: 50%;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.sect-content {
+    padding: 3px;
+    margin-top: 0;
+}
+
+@media (min-width: 992px){
+    .col-lg {
+        width: 32.7%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md {
+        width: 48.6%;
+    }
+}
