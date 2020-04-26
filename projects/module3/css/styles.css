@@ -1,0 +1,48 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #0b0257;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#nav-list a, h2, h3 {
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+}
+
+.navbar-brand a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6em;
+}
+
+#header-nav {
+  border-radius: 0px;
+  border: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+p {
+  padding: 5px;
+}
+
+#nav-list a {
+  font-size: 1.3em;
+}
+
+#main-content div {
+  background-color: rgb(0, 79, 93);
+  margin: 50px auto 50px;
+  margin: 40px;
+  padding: 10px 20px;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 1px solid #000;
+  width: 90%;
+}
